@@ -1,0 +1,10 @@
+[project]
+name = "janus"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.116.1",
+    "sqlmodel>=0.0.24",
+    "uvicorn>=0.35.0",
+]
