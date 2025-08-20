@@ -4,8 +4,8 @@ from typing import Annotated
 from fastapi import FastAPI, Depends
 from sqlmodel import Session
 
-from database import Database
-from models import Restaurant
+from app.database import Database
+from app.models import Restaurant
 
 
 db = Database()
